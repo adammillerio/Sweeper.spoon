@@ -52,6 +52,7 @@ Sweeper.logger = nil
 Sweeper.logLevel = nil
 
 --- Sweeper.windowFilter
+--- Variable
 --- Main hs.window.filter. This is what is used to detect and action on unfocused
 --- windows. It is a copy of the "default" window filter with Sweeper specific
 --- sort order and callback configurations applied in the start method.
