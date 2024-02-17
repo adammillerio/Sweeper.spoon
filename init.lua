@@ -88,7 +88,7 @@ end
 function Sweeper:_sweepWindow(window)
     self.logger.vf("Sweeping window: %s", window)
 
-    local windowApp = currentWindow:application()
+    local windowApp = window:application()
     if windowApp == nil then
         -- This is probably a "stale" window, so skip it.
         self.logger.wf("Skipping stale window %s", hs.inspect(window))
