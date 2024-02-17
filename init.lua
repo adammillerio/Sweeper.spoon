@@ -21,7 +21,7 @@ Sweeper.__index = Sweeper
 
 -- Metadata
 Sweeper.name = "Sweeper"
-Sweeper.version = "0.0.1"
+Sweeper.version = "0.0.2"
 Sweeper.author = "Adam Miller <adam@adammiller.io>"
 Sweeper.homepage = "https://github.com/adammillerio/Sweeper.spoon"
 Sweeper.license = "MIT - https://opensource.org/licenses/MIT"
